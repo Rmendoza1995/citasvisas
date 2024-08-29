@@ -34,7 +34,7 @@ CREATE TABLE `citasvisa` (
   `tipo` varchar(50) DEFAULT NULL,
   `fecha_vigencia` varchar(50) DEFAULT NULL,
   `horario` varchar(40) DEFAULT NULL,
-  `Comentarios adicinoales` varchar(550) DEFAULT NULL,
+  `Comentariosadicinoales` varchar(550) DEFAULT NULL,
   `usuarioregistro` varchar(60) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
