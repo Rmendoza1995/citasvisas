@@ -1,0 +1,121 @@
+[26-Aug-2024 09:41:24 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'aisusain_bdusuario'@'mx106.hostgator.mx' (using password: YES) in /home2/aisusain/public_html/configuracion.php:18
+Stack trace:
+#0 /home2/aisusain/public_html/configuracion.php(18): mysqli_connect('162.241.2.167', 'aisusain_bdusua...', Object(SensitiveParameterValue), 'aisusain_root')
+#1 /home2/aisusain/public_html/registrousuarios/index.php(4): include('/home2/aisusain...')
+#2 {main}
+  thrown in /home2/aisusain/public_html/configuracion.php on line 18
+[26-Aug-2024 09:42:06 America/Mexico_City] PHP Warning:  Undefined array key "usuario" in /home2/aisusain/public_html/registrousuarios/index.php on line 11
+[26-Aug-2024 09:42:06 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:42:44 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:42:49 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:42:50 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:43:26 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:43:28 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:44:07 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:45:23 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:45:54 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:45:56 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:46:34 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:47:08 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:47:58 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:48:04 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:48:12 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:49:20 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:49:21 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:49:23 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:12
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(12): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 12
+[26-Aug-2024 09:49:39 America/Mexico_City] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/aisusain/public_html/registrousuarios/index.php on line 7
+[26-Aug-2024 09:49:39 America/Mexico_City] PHP Warning:  Undefined global variable $_SESSION in /home2/aisusain/public_html/registrousuarios/index.php on line 16
+[26-Aug-2024 09:49:39 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/aisusain/public_html/registrousuarios/index.php on line 16
+[26-Aug-2024 09:49:39 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:17
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(17): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 17
+[26-Aug-2024 16:27:59 America/Mexico_City] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/aisusain/public_html/registrousuarios/index.php on line 7
+[26-Aug-2024 16:27:59 America/Mexico_City] PHP Warning:  Undefined global variable $_SESSION in /home2/aisusain/public_html/registrousuarios/index.php on line 16
+[26-Aug-2024 16:27:59 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/aisusain/public_html/registrousuarios/index.php on line 16
+[26-Aug-2024 16:27:59 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:17
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(17): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 17
+[27-Aug-2024 20:56:20 America/Mexico_City] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/aisusain/public_html/registrousuarios/index.php on line 7
+[27-Aug-2024 20:56:20 America/Mexico_City] PHP Warning:  Undefined global variable $_SESSION in /home2/aisusain/public_html/registrousuarios/index.php on line 16
+[27-Aug-2024 20:56:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/aisusain/public_html/registrousuarios/index.php on line 16
+[27-Aug-2024 20:56:20 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'aisusain_root.usuarioslicencias' doesn't exist in /home2/aisusain/public_html/registrousuarios/index.php:17
+Stack trace:
+#0 /home2/aisusain/public_html/registrousuarios/index.php(17): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home2/aisusain/public_html/registrousuarios/index.php on line 17
