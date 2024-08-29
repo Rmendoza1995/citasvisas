@@ -336,7 +336,7 @@ div.error input, div.error select, div.error textarea
 
 input:focus, select:focus, textarea:focus
 {
-    background-color: #ffffcc !important;
+    background-color:transparent!important;
 }
 
 /* social security number inputs */
@@ -3759,15 +3759,16 @@ a {
     color:white;
 
 }
-input[type="date"]::placeholder  {
-            color: white; 
-        }
+
 input, textarea {
             background-color: transparent; /* Quita el fondo */
             border: 1px solid #ccc; /* Añade un borde opcional */
             font-size: 16px;
-            color: black; /* Color del texto */
         }
+        input, textarea :active {
+    background-color: transparent; /* Cambia el color de fondo del botón mientras está presionado */
+    color: transparent; /* Cambia el color del texto del botón mientras está presionado */
+}
 .ceac-explain {
   color: #545454;
   font-style: italic;
@@ -4049,38 +4050,38 @@ div.message-summary li
                         </div>   
 
                         <h6>
-                        <form id="consultaCitaForm" method="post">
+                        <form id="consultaCitaForm" method="post" >
     <div class="mb-3">
         <label for="idcita" class="form-label">Visa application type        </label><br>
-        <input type="text" id="idcita" name="idcita" required>
+        <input style="color: white;" type="text" id="idcita" name="idcita" required>
     </div>
     <div class="mb-3">
         <label for="contra" class="form-label">Email</label><br>
-        <input type="email" id="correo" name="correo" required>
+        <input type="email" style="color: white;" id="correo" name="correo" required>
     </div>
     <div class="mb-3">
         <label for="fecha" class="form-label">DAY OF DATE</label><br>
-        <input type="date" id="fecha" name="fecha" required>
+        <input type="date" style="color: white;" id="fecha" name="fecha" required>
     </div>
     <div class="mb-3">
         <label for="identificaion" class="form-label">Identification of the request or case number        </label><br>
-        <input type="text" id="identificaion" name="identificaion" required>
+        <input type="text" style="color: white;" id="identificaion" name="identificaion" required>
     </div>
     <div class="mb-3">
         <label for="refece" class="form-label">Reference Number <br>(note: for applicants who completed the form before <br>January 1, 2024, <br>enter Na in the following field
         )</label><br>
-        <input type="text" id="refece" name="refece" required>
+        <input type="text" style="color: white;" id="refece" name="refece" required>
     </div>
     <div class="mb-3">
         <label for="contra" class="form-label">Password</label><br>
-        <input type="password" id="contra" name="contra" required>
+        <input type="password" style="color: white;" id="contra" name="contra" required>
     </div>
     
     <div class="mb-6">
         <label for="captchaInput" class="form-label">Enter the code as shown
 
         </label><br>
-        <input type="text" id="captchaInput" name="captchaInput" required>
+        <input type="text" style="color: white;" id="captchaInput" name="captchaInput" required>
         <div id="captchaContainer"></div>
     </div>
     <br>

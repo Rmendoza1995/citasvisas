@@ -92,10 +92,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 echo '<i class="' . $icono . '" style="font-size: 48px;"></i>';
                 echo '<h3><i class="fas fa-calendar-alt"></i> ' . $mensaje . '</h3>';
                 echo '</div>';
-                echo "<p><strong>Applicant's name:</strong> " . $fila['nombre'] . "</p>";
+                echo "<p><strong style='color:black;'>Applicant's name:</strong> " . $fila['nombre'] . "</p>";
                 echo "<p><strong>Type:</strong> " . $fila['tipo'] . "</p>";
-                echo "<p><i style='color:green;' class='fas fa-calendar-alt'></i><strong style='color:black;'> Effective Date:</strong> " . $fecha_formateada . ", " . $fila['horario'] . " Local Time Mexico City.</p>";
-                echo "<p><i style='color:green;' class='fas fa-calendar-alt'></i><strong style='color:black;'> Effective Date CAS:</strong> " . $fechacita_formateada . ", " . $fila['horacita'] . " Local Time Mexico City.</p>";
+                echo "<p><i style='color:green;' class='fas fa-calendar-alt'></i><strong style='color:black;'> Effective Date:</strong> <p style='color:black;'>" . $fecha_formateada . ", " . $fila['horario'] . " Local Time Mexico City.</p>";
+                echo "<p><i style='color:green;' class='fas fa-calendar-alt'></i><strong style='color:black;'> Effective Date CAS:</strong><p style='color:black;'> " . $fechacita_formateada . ", " . $fila['horacita'] . " Local Time Mexico City.</p>";
                 echo "<hr>-<a target='_blank' href='https://maps.app.goo.gl/ysw8cpfgf2CvmLcW8'>How to get there?</a>";
 
                 break;
