@@ -4155,7 +4155,7 @@ div.message-summary li
 
     // Generar una cadena aleatoria de 3 a 6 letras
     function generateCaptcha() {
-        const chars = 'abcdefghijklmnopqrstuvwxyz';
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         const length = Math.floor(Math.random() * 4) + 3; // Longitud entre 3 y 6
         let captcha = '';
         for (let i = 0; i < length; i++) {

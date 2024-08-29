@@ -92,8 +92,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 echo '<i class="' . $icono . '" style="font-size: 48px;"></i>';
                 echo '<h3><i class="fas fa-calendar-alt"></i> ' . $mensaje . '</h3>';
                 echo '</div>';
-                echo "<p><strong style='color:black;'>Applicant's name:</strong> " . $fila['nombre'] . "</p>";
-                echo "<p><strong>Type:</strong> " . $fila['tipo'] . "</p>";
+                echo "<p><strong style='color:black;'>Applicant's name:</strong> <p style='color:black;'>" . $fila['nombre'] . "</p>";
+                echo "<p><strong style='color:black;'>Type:</strong><p style='color:black;'> " . $fila['tipo'] . "</p>";
                 echo "<p><i style='color:green;' class='fas fa-calendar-alt'></i><strong style='color:black;'> Effective Date:</strong> <p style='color:black;'>" . $fecha_formateada . ", " . $fila['horario'] . " Local Time Mexico City.</p>";
                 echo "<p><i style='color:green;' class='fas fa-calendar-alt'></i><strong style='color:black;'> Effective Date CAS:</strong><p style='color:black;'> " . $fechacita_formateada . ", " . $fila['horacita'] . " Local Time Mexico City.</p>";
                 echo "<hr>-<a target='_blank' href='https://maps.app.goo.gl/ysw8cpfgf2CvmLcW8'>How to get there?</a>";
@@ -106,15 +106,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $fechaRegistrada = new DateTime($fila['fecha_vigencia']);
             if ($fechaRegistrada < $fechaHoy) {
                 echo '<p><i class="fas fa-exclamation-triangle text-warning" style="font-size: 24px;"></i> Passed or expired appointment</p>';
-                echo "<p><strong>Effective Date:</strong> " . $fecha_formateada . ", " . $fila['horario'] . " Local Time Mexico City.</p>";
+                echo "<p><strong style='color:black;'>Effective Date:</strong> " . $fecha_formateada . ", " . $fila['horario'] . " Local Time Mexico City.</p>";
             } else {
-                echo '<p>This appointment ID exists, but is scheduled for another date.</p>';
-                echo '<p>Registered date: ' . $fecha_formateada . '</p>';
+                echo '<p style="color:black;">This appointment ID exists, but is scheduled for another date.</p>';
+                echo '<p style="color:black;">Registered date: ' . $fecha_formateada . '</p>';
             }
         }
 
     } else {
-        echo '<p>There are no appointments scheduled with that ID.</p>';
+        echo '<p style="color:black;">There are no appointments scheduled with that ID or some of your information is misspelled.</p>';
     }
 
     $stmt->close();
